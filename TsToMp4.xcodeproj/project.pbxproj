@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55FB59291F174BDE00C6F1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB59281F174BDE00C6F1B9 /* main.m */; };
-		55FB592C1F174BDE00C6F1B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB592B1F174BDE00C6F1B9 /* AppDelegate.m */; };
 		55FB592F1F174BDE00C6F1B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB592E1F174BDE00C6F1B9 /* ViewController.m */; };
 		55FB59321F174BDE00C6F1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FB59301F174BDE00C6F1B9 /* Main.storyboard */; };
 		55FB59341F174BDE00C6F1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FB59331F174BDE00C6F1B9 /* Assets.xcassets */; };
 		55FB59371F174BDE00C6F1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FB59351F174BDE00C6F1B9 /* LaunchScreen.storyboard */; };
 		55FB59421F174BDE00C6F1B9 /* TsToMp4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB59411F174BDE00C6F1B9 /* TsToMp4Tests.m */; };
 		55FB594D1F174BDE00C6F1B9 /* TsToMp4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB594C1F174BDE00C6F1B9 /* TsToMp4UITests.m */; };
+		55FB597A1F174F9600C6F1B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB592B1F174BDE00C6F1B9 /* AppDelegate.m */; };
+		55FB597B1F174FB900C6F1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB59281F174BDE00C6F1B9 /* main.m */; };
+		55FB597E1F17522600C6F1B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB59781F174C7A00C6F1B9 /* libz.tbd */; };
+		55FB59801F17531F00C6F1B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB597F1F17531F00C6F1B9 /* UIKit.framework */; };
+		55FB59831F1754A200C6F1B9 /* 132311.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 55FB59811F1754A200C6F1B9 /* 132311.mp4 */; };
+		55FB59841F1754A200C6F1B9 /* 20170712160939086.ts in Resources */ = {isa = PBXBuildFile; fileRef = 55FB59821F1754A200C6F1B9 /* 20170712160939086.ts */; };
+		EE91C7F32C80F1E5E9E7A22B /* libPods-TsToMp4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D1D7F642A6DA2ACB8437B7 /* libPods-TsToMp4.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		468B9499AE6CA3FB8C628610 /* Pods-TsToMp4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TsToMp4.release.xcconfig"; path = "Pods/Target Support Files/Pods-TsToMp4/Pods-TsToMp4.release.xcconfig"; sourceTree = "<group>"; };
 		55FB59241F174BDE00C6F1B9 /* TsToMp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TsToMp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FB59281F174BDE00C6F1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55FB592A1F174BDE00C6F1B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		55FB59481F174BDE00C6F1B9 /* TsToMp4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TsToMp4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FB594C1F174BDE00C6F1B9 /* TsToMp4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TsToMp4UITests.m; sourceTree = "<group>"; };
 		55FB594E1F174BDE00C6F1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FB59781F174C7A00C6F1B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		55FB597C1F17521700C6F1B9 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		55FB597F1F17531F00C6F1B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55FB59811F1754A200C6F1B9 /* 132311.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 132311.mp4; sourceTree = "<group>"; };
+		55FB59821F1754A200C6F1B9 /* 20170712160939086.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20170712160939086.ts; sourceTree = "<group>"; };
+		58D1D7F642A6DA2ACB8437B7 /* libPods-TsToMp4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TsToMp4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725DBED0940C977195571CB8 /* Pods-TsToMp4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TsToMp4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TsToMp4/Pods-TsToMp4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FB59801F17531F00C6F1B9 /* UIKit.framework in Frameworks */,
+				55FB597E1F17522600C6F1B9 /* libz.tbd in Frameworks */,
+				EE91C7F32C80F1E5E9E7A22B /* libPods-TsToMp4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30B0F42A2FDF81A287A10098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FB597F1F17531F00C6F1B9 /* UIKit.framework */,
+				55FB597C1F17521700C6F1B9 /* libz.1.tbd */,
+				55FB59781F174C7A00C6F1B9 /* libz.tbd */,
+				58D1D7F642A6DA2ACB8437B7 /* libPods-TsToMp4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55FB591B1F174BDE00C6F1B9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				55FB59401F174BDE00C6F1B9 /* TsToMp4Tests */,
 				55FB594B1F174BDE00C6F1B9 /* TsToMp4UITests */,
 				55FB59251F174BDE00C6F1B9 /* Products */,
+				A8ABBDC9F3193D2CFE9C5885 /* Pods */,
+				30B0F42A2FDF81A287A10098 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,8 @@
 		55FB59261F174BDE00C6F1B9 /* TsToMp4 */ = {
 			isa = PBXGroup;
 			children = (
+				55FB59811F1754A200C6F1B9 /* 132311.mp4 */,
+				55FB59821F1754A200C6F1B9 /* 20170712160939086.ts */,
 				55FB592A1F174BDE00C6F1B9 /* AppDelegate.h */,
 				55FB592B1F174BDE00C6F1B9 /* AppDelegate.m */,
 				55FB592D1F174BDE00C6F1B9 /* ViewController.h */,
@@ -140,6 +171,15 @@
 			path = TsToMp4UITests;
 			sourceTree = "<group>";
 		};
+		A8ABBDC9F3193D2CFE9C5885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				725DBED0940C977195571CB8 /* Pods-TsToMp4.debug.xcconfig */,
+				468B9499AE6CA3FB8C628610 /* Pods-TsToMp4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FB59511F174BDE00C6F1B9 /* Build configuration list for PBXNativeTarget "TsToMp4" */;
 			buildPhases = (
+				82EBF8FA74A3032439F9EC77 /* [CP] Check Pods Manifest.lock */,
 				55FB59201F174BDE00C6F1B9 /* Sources */,
 				55FB59211F174BDE00C6F1B9 /* Frameworks */,
 				55FB59221F174BDE00C6F1B9 /* Resources */,
+				0AA2CE219E395104A1420238 /* [CP] Embed Pods Frameworks */,
+				C22D8B87A7E0F156DE888573 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FB59831F1754A200C6F1B9 /* 132311.mp4 in Resources */,
 				55FB59371F174BDE00C6F1B9 /* LaunchScreen.storyboard in Resources */,
+				55FB59841F1754A200C6F1B9 /* 20170712160939086.ts in Resources */,
 				55FB59341F174BDE00C6F1B9 /* Assets.xcassets in Resources */,
 				55FB59321F174BDE00C6F1B9 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +313,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AA2CE219E395104A1420238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TsToMp4/Pods-TsToMp4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82EBF8FA74A3032439F9EC77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C22D8B87A7E0F156DE888573 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TsToMp4/Pods-TsToMp4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55FB59201F174BDE00C6F1B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FB597B1F174FB900C6F1B9 /* main.m in Sources */,
+				55FB597A1F174F9600C6F1B9 /* AppDelegate.m in Sources */,
 				55FB592F1F174BDE00C6F1B9 /* ViewController.m in Sources */,
-				55FB592C1F174BDE00C6F1B9 /* AppDelegate.m in Sources */,
-				55FB59291F174BDE00C6F1B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +517,7 @@
 		};
 		55FB59521F174BDE00C6F1B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725DBED0940C977195571CB8 /* Pods-TsToMp4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TsToMp4/Info.plist;
@@ -435,6 +529,7 @@
 		};
 		55FB59531F174BDE00C6F1B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468B9499AE6CA3FB8C628610 /* Pods-TsToMp4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TsToMp4/Info.plist;
@@ -509,6 +604,7 @@
 				55FB59531F174BDE00C6F1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FB59541F174BDE00C6F1B9 /* Build configuration list for PBXNativeTarget "TsToMp4Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +613,7 @@
 				55FB59561F174BDE00C6F1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FB59571F174BDE00C6F1B9 /* Build configuration list for PBXNativeTarget "TsToMp4UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +622,7 @@
 				55FB59591F174BDE00C6F1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
